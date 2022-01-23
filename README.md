@@ -1,5 +1,5 @@
 
- Trybe
+ # Trybe 
 ​
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Arthur Martins Leal Peixoto](linkedin.com/in/arthur-martins-leal-peixoto-a7b79422b)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 ​
