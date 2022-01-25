@@ -78,7 +78,7 @@ Entre no seu **GitHub** e siga os passos abaixo:
 * Clique em **Add SSH key** ;
 * Caso seja solicitado, confirme sua senha do Github.
 
-Se tiver problemas ao seguir o tutorial acima, consulte a _(documentação oficial do **GitHub**)[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account]_ .
+Se tiver problemas ao seguir o tutorial acima, consulte a _[documentação oficial do **GitHub**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)_ .
 
 ## Parte 4 - O seu repositório no GitHub
 
@@ -131,4 +131,4 @@ origin  git@github.com:john-snow/know-nothing.git (push)
 
 ## Parte 5 - Habilitando Two Factor Authentication no seu GitHub
 
-Há um guia do próprio github ensinando como fazer esse processo _(neste link)[https://docs.github.com/pt/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication]_
+Há um guia do próprio github ensinando como fazer esse processo _[neste link](https://docs.github.com/pt/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)_
