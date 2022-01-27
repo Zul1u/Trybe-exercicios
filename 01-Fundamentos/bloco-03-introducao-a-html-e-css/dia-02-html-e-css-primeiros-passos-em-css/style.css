@@ -1,0 +1,37 @@
+h1 {
+    font-size: 65px;
+    color: rgb(255, 72, 0);
+    font-family: sans-serif;
+}
+ul {
+ background-color: tomato;
+ font-weight: bold;
+ font-family: sans;
+ font-style: italic;
+ text-decoration:underline ;
+}
+.Tag-color{
+    background-color: rgb(2, 68, 16);
+  line-height: 35px;
+}
+p{
+  font-weight: 600;
+  font-size: 3em;
+}
+#Amarelo {
+  background-color:yellow;
+  font-size: 20px;
+}
+#Vermelho{
+  background-color: red;
+  font-size: 20px;
+}
+#Azul{
+  background-color: blue;
+  font-size: 20px;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+    font-size: 16px;
+    text-align: center;
+  } 
