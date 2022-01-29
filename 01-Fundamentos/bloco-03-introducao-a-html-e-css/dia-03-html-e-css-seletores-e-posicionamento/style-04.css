@@ -9,3 +9,46 @@ ol li:nth-of-type(2n) {
 ol li:nth-of-type(2n+1) {
     text-transform: lowercase;
 }
+
+.Headers {
+    color:red;
+}
+em.Headers {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+ul.list-pt li:nth-child(-n+3) {
+    color: blue;
+}
+.java {
+    background-color:pink;
+}
+
+ul.links li:hover a[href*="stackoverflow"] {
+    color: orange
+}
+
+ul.links li:hover a[href*="w3schools"] {
+    color: green
+}
+
+ul.links li:hover a[href*="developer"] {
+    color:black;
+}
+
+ul.links li:hover a[href*="devdocs.io"] {
+    color: yellow;
+}
+
+ul.links li:hover a[href*="trybe"] {
+    color: green;
+}
