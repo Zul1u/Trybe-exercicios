@@ -16,8 +16,8 @@ ul {
     height: 50px;
     text-align: center;
     width: 200px;
-    display: inline-block;
-
+    position: relative;
+    left: 675px;
   }
 
 .second {
@@ -26,6 +26,7 @@ ul {
     height: 50px;
     text-align: center;
     width: 300px;
+    position: relative;
     display: inline-block;
   }
 
@@ -36,6 +37,7 @@ ul {
     text-align: center;
     width: 300px;
     display: inline-block;
+    position: relative;
   }
 
 .premiação {
