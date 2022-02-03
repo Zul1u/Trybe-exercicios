@@ -110,7 +110,7 @@ if(numb1 % 2 === 0 || numb2 % 2 === 0 || numb3 % 2 === 0){
 
 // 9.
 
-const numb1 = 6;
+/* const numb1 = 6;
 const numb2 = 4;
 const numb3 = 1;
 
@@ -118,5 +118,30 @@ if(numb1 % 2 === 1 || numb2 % 2 === 1 || numb3 % 2 === 1){
     console.log("true");
 }else{
     console.log("false")
-}
+}*/
 
+// 10.
+
+const valorCusto = 7.5
+const valorVenda = 10
+
+let valorCustoTotal = null;
+let impostoSobreOCusto = 0.20;
+let lucro = null;
+let valorInposto = null;
+let valorVendaTotal = null;
+
+valorInposto = valorCusto * impostoSobreOCusto;
+
+valorCustoTotal = valorCusto + valorInposto;
+
+valorVendaTotal = valorVenda *1000;
+valorCustoTotal = valorCustoTotal *1000;
+
+lucro = valorVendaTotal - valorCustoTotal
+
+if (lucro > 0){
+    console.log(lucro)
+} else if(lucro < 0){
+    console.log("erro")
+}
