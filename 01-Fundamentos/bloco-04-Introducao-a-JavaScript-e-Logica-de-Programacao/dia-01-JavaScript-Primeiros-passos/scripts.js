@@ -85,10 +85,29 @@ if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "qu
 
 //Operador NOT
 
-const mago = "melhor classe";
-
+/* const mago = "melhor classe";
 console.log(!mago);
 
 console.log(!40);
+console.log(!0); */
 
-console.log(!0);
+//para fixar 5
+
+let candicatoNumbOne = "reprovada";
+
+switch (candicatoNumbOne) {
+    case "aprovada":
+        console.log("Parabéns, você foi aprovada(o)!");
+        break;
+
+    case "lista":
+        console.log("Você está na nossa lista de espera");
+        break;
+    
+    case "reprovada":
+        console.log("Você foi reprovada(o)");
+        break;
+    
+    default:
+        console.log("não se aplica") 
+}   
