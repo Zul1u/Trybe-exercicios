@@ -78,7 +78,7 @@ switch(peao.toLowerCase()) {
 
 // 7. 
 
-let nota = -1;
+/* let nota = -1;
 
 if(nota >= 90 && nota <= 100){
     console.log("A");
@@ -94,4 +94,29 @@ if(nota >= 90 && nota <= 100){
     console.log("F");
 } else if(nota < 0 || nota > 100){
     console.log("erro");
+} */
+
+// 8.
+
+/* const numb1 = 5;
+const numb2 = 5;
+const numb3 = 3
+
+if(numb1 % 2 === 0 || numb2 % 2 === 0 || numb3 % 2 === 0){
+    console.log("true");
+}else{
+    console.log("false")
+} */
+
+// 9.
+
+const numb1 = 6;
+const numb2 = 4;
+const numb3 = 1;
+
+if(numb1 % 2 === 1 || numb2 % 2 === 1 || numb3 % 2 === 1){
+    console.log("true");
+}else{
+    console.log("false")
 }
+
