@@ -11,10 +11,10 @@ let indexOfPortfolio = menu[2]
 
 console.log(indexOfPortfolio);*/
 
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+/* let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 console.log(menu.push('contato'));
-console.log(menu);
+console.log(menu); */
 
 //Para fixar For
 
