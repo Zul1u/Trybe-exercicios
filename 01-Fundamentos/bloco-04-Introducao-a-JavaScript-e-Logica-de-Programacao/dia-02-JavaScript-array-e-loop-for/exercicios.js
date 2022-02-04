@@ -40,11 +40,25 @@ if (soma > 20) {
 } */
 
 // 5.
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let maiorNumero = 0;
 for (let i = 0; i < numbers.length; i += 1){
     if(maiorNumero < numbers[i]){
         maiorNumero = numbers[i]
     }
 }
-console.log(maiorNumero)
+console.log(maiorNumero) */
+
+// 6.
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impar = [];
+for (let i = 0; i < numbers.length; i += 1){
+    if (numbers[i] % 2 === 1){
+        impar.push(numbers[i])
+        console.log(impar);
+    } else {
+        console.log("nenhum valor ímpar encontrado");
+    }
+} */
+
+// 7.
