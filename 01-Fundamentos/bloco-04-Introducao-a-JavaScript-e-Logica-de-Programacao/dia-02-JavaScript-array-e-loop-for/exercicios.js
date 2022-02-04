@@ -62,11 +62,22 @@ for (let i = 0; i < numbers.length; i += 1){
 } */
 
 // 7.
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let menorNumero = 101;
 for (let i = 0; i < numbers.length; i += 1) {
     if (menorNumero > numbers[i]) {
         menorNumero = numbers[i]
     }
 }
-console.log(menorNumero)
+console.log(menorNumero) */
+
+// 8.
+let numb = [];
+let numb2 = 2;
+for (let i = 1; i <= 25; i += 1) {
+    numb.push([i])
+}
+
+for (let ii = 0; ii < numb.length; ii += 1){
+   console.log(numb[ii] / 2) 
+}
