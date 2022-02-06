@@ -122,7 +122,7 @@ if(numb1 % 2 === 1 || numb2 % 2 === 1 || numb3 % 2 === 1){
 
 // 10.
 
-const valorCusto = 7.5
+/* const valorCusto = 7.5
 const valorVenda = 10
 
 let valorCustoTotal = null;
@@ -144,4 +144,41 @@ if (lucro > 0){
     console.log(lucro)
 } else if(lucro < 0){
     console.log("erro")
-}
+} */
+
+// 11.
+let inss = null;
+let ir = null;
+
+const salarioBruto = 10000;
+
+if (salarioBruto <= 1556.94) {
+    inss = salarioBruto * 0.08;
+} else if (salarioBruto <= 2594.92) {
+    inss = salarioBruto * 0.09;
+} else if (salarioBruto <= 5189.82) {
+    inss = salarioBruto * 0.11;
+} else {
+    inss = 570.88;
+};
+console.log(inss);
+const salarioSemInss = salarioBruto - inss;
+console.log(salarioSemInss);
+
+
+if (salarioSemInss <= 1903.98) {
+    ir =  0;
+} else if (salarioSemInss <= 2826.65) {
+    ir = (salarioSemInss * 0.075) - 142.80;
+} else if (salarioSemInss <= 3751.05) {
+    ir = (salarioSemInss * 0.15) - 354.80;
+} else if (salarioSemInss <= 4664.68) {
+    ir = (salarioSemInss * 0.225) - 636.13;
+} else {
+    ir =  (salarioSemInss * 0.275) - 869.36;
+};
+
+console.log(ir)
+
+const salario = salarioSemInss - ir ;
+console.log(salario);
