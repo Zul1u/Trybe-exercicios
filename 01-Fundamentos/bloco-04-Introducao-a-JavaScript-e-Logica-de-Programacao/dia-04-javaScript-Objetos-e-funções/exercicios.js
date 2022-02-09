@@ -71,7 +71,7 @@ console.log(leitor['livrosFavoritos']) */
 // Exercicicos Parte 2
 
 // 1.
-function palíndromo(a) {
+/* function palíndromo(a) {
     let palavra = a
     palavra = palavra.split('').reverse().join('');
     if (palavra == a) {
@@ -80,4 +80,18 @@ function palíndromo(a) {
         return false;
     }
 }
-console.log(palíndromo('arara'))
+console.log(palíndromo('arara')); */
+
+// 2.
+function maiorNumero(array) {
+    let numero = [];
+    let numero2 = -1
+    for (let i = 0; i < array.length; i += 1) {
+        if (array[i] > numero2){
+            numero2 = array[i]
+            numero.push(array[i]);
+        } 
+    }
+    return numero.length -1
+}
+console.log(maiorNumero([2, 3, 6, 7, 10, 1]))
