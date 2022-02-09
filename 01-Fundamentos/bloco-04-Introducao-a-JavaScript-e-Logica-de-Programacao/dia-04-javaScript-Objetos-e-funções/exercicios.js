@@ -83,7 +83,7 @@ console.log(leitor['livrosFavoritos']) */
 console.log(palíndromo('arara')); */
 
 // 2.
-function maiorNumero(array) {
+/* function maiorNumero(array) {
     let numero = [];
     let numero2 = -1
     for (let i = 0; i < array.length; i += 1) {
@@ -94,4 +94,17 @@ function maiorNumero(array) {
     }
     return numero.length -1
 }
-console.log(maiorNumero([2, 3, 6, 7, 10, 1]))
+console.log(maiorNumero([2, 3, 6, 7, 10, 1])) */
+
+// 3.
+function menorNumero(array){
+    let numero = [];
+    let numero2 = 100;
+    for (let i = 0; i < array.length; i += 1){
+        if (array[i] < numero2){
+            numero.push(array[i])
+        }
+    }
+    return numero.length -1
+}
+console.log(menorNumero([2, 4, 6, 7, 10, 0, -3, -4]))
