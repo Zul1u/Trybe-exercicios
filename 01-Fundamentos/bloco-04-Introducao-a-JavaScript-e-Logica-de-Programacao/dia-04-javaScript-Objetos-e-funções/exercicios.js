@@ -1,4 +1,4 @@
-// Exercicicos 
+// Exercicicos Parte 1
 
 // 1.
 /* let info = {
@@ -43,7 +43,7 @@ for (let key in info) {
 } */
 
 // 6.
-let leitor = {
+/* let leitor = {
     nome: 'Julia',
     sobrenome: 'Pessoa',
     idade: 21,
@@ -55,15 +55,29 @@ let leitor = {
         },
     ],
 };
-console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos[0].titulo)
+console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos[0].titulo) */
 
 // 7.
-leitor.livrosFavoritos.push({
+/* leitor.livrosFavoritos.push({
     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
     autor: 'JK Rowling',
     editora: 'Rocco',
 })
-console.log(leitor['livrosFavoritos'])
+console.log(leitor['livrosFavoritos']) */
 
 //8.
-console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.')
+/* console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.') */
+
+// Exercicicos Parte 2
+
+// 1.
+function palíndromo(a) {
+    let palavra = a
+    palavra = palavra.split('').reverse().join('');
+    if (palavra == a) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(palíndromo('arara'))

@@ -99,7 +99,7 @@ console.log(maiorNumero(5, 4, 1)) */
 console.log(positiveNegative(-1)) */
 
 // 5.
-function triangulo(a, b, c){
+/* function triangulo(a, b, c){
     let angulosIguais = true;
     if (a + b + c === 180){
         return angulosIguais =  true;
@@ -111,4 +111,4 @@ function triangulo(a, b, c){
         return "Error 404!"
     }
 }
-console.log(triangulo(60, 60, 60))
+console.log(triangulo(60, 60, 60)) */
