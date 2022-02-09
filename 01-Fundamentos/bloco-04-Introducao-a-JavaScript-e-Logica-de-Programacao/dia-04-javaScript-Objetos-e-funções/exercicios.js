@@ -92,19 +92,36 @@ console.log(palíndromo('arara')); */
             numero.push(array[i]);
         } 
     }
-    return numero.length -1
+    return numero.length -1;
 }
-console.log(maiorNumero([2, 3, 6, 7, 10, 1])) */
+console.log(maiorNumero([2, 3, 6, 7, 10, 1])); */
 
 // 3.
-function menorNumero(array){
+/* function menorNumero(array){
     let numero = [];
     let numero2 = 100;
     for (let i = 0; i < array.length; i += 1){
         if (array[i] < numero2){
-            numero.push(array[i])
+            numero.push(array[i]);
         }
     }
-    return numero.length -1
+    return numero.length -1;
 }
-console.log(menorNumero([2, 4, 6, 7, 10, 0, -3, -4]))
+console.log(menorNumero([2, 4, 6, 7, 10, 0, -3,])); */
+
+// 4.
+function maiorNome(array) {
+    let tamanhosNomes = [];
+    for (let i = 0; i < array.length; i += 1){
+        tamanhosNomes.push(array[i].length)
+    }
+    let nomeMaior = -Infinity
+    for (let ii = 0; ii < tamanhosNomes.length; ii +=1){
+        if (nomeMaior < tamanhosNomes[ii]) {
+            nomeMaior = tamanhosNomes[ii]
+        }
+    }
+    let indexMaiorNome = tamanhosNomes.indexOf(nomeMaior)
+    return console.log(array[indexMaiorNome])
+}
+maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])
