@@ -127,7 +127,7 @@ console.log(menorNumero([2, 4, 6, 7, 10, 0, -3,])); */
 maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']) */
 
 // 5.
-function maisRepetido(array) {
+/* function maisRepetido(array) {
     let contador = 0;
     let maiorContador = 0;
     for (let i = 0; i < array.length; i += 1) {
@@ -138,9 +138,28 @@ function maisRepetido(array) {
         }
         if (contador > maiorContador){
             maiorContador = contador;
-            //console.log(maiorContador);
             return array[i];
         }
     }
 }
-console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]))
+console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]))*/
+
+// 6.
+function somatorio(N) {
+    let soma = 0;
+    for (let i = 1; i <= N; i +=1) {
+        soma += i
+    }
+    return soma
+}
+console.log(somatorio(5))
+
+// 7.
+function palavraFinal(word, ending) {
+    if (word.slice(- ending.length) === ending) {
+        return true;
+    } else {
+        return false
+    }
+}
+console.log(palavraFinal('joaofernando', 'fernan'))
