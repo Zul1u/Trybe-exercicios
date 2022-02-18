@@ -1,0 +1,8 @@
+#opt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opcoes {
+    margin: 5px;
+}
