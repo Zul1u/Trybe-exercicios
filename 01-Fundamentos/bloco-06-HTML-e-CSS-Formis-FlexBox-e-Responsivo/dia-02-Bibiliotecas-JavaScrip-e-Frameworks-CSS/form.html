@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trybe Trip</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container box">
+            <section>
+                <h1 class="display-1">Trybe Trip</h1>
+            </section>
+            <section>
+                <p>Concorra a um pacote de viagem de uma semana <strong>totalmente pago</strong> pela <a
+                        href="https://www.betrybe.com/" target="_blank">Trybe!!</a></p>
+            </section>
+        </div>
+    </header>
+
+    <form action="" method="get" id="form">
+        <article>
+            <div class="container box">
+                <!-- infos do usuario -->
+                <div>
+                    <label for="nome" class="form-label">Nome Completo:</label>
+                    <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div>
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" min="10" max="50" class="form-control"
+                        placeholder="Digite seu email">
+                </div>
+                <!-- opções de destino -->
+                <div id="options" class="form-check form-check-inline">
+                    <span>Destino Preferido:</span>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="local" id="option-01" class="form-check-input">
+                        <label for="option-01" class="form-check-label">Porto Seguro - BA</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="local" id="option-02" class="form-check-input">
+                        <label for="option-02" class="form-check-label">São Thomé das Letras - MG</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="local" id="option-03" class="form-check-input">
+                        <label for="option-03" class="form-check-label">Natal - RJ</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="local" id="option-04" class="form-check-input">
+                        <label for="option-04" class="form-check-label">Vitória - ES</label>
+                    </div>
+                </div>
+                <!-- descreva porque voce deve ganhar a viagem -->
+                <div>
+                    <label for="descripton" class="form-label">Por que você deveria ser a pessoa desenvolvedora a ganhar
+                        o concurso
+                        TrybeTrip?</label>
+
+                    <textarea name="" id="descripton" maxlength="500" cols="30" rows="5" placeholder="Digite aqui"
+                        class="form-control"></textarea>
+                </div>
+                <!-- melhor data para a viagem -->
+                <div>
+                    <label for="date" class="form-label">Data da viagem:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <!-- checkbox -->
+                <div>
+                    <div>
+                        <input type="checkbox" id="notification" class="form-check-input">
+                        <label for="notification" class="form-check-label">Gostaria de receber outras incríveis
+                            oportunidades oferecidas pela
+                            Trybe?</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Photos" class="form-check-input">
+                        <label for="Photos" class="form-check-label">Concordo que imagens das minhas férias poderão ser
+                            usadas na divulgação de
+                            concursos futuros.</label>
+                    </div>
+                </div>
+                <!-- botões -->
+                <div>
+                    <button type="submit" class="btn btn-primary" id="submit">Enviar</button>
+                    <button type="reset" class="btn btn-danger" id="clear">Limpar</button>
+                </div>
+            </div>
+        </article>
+    </form>
+    <script src="/node_modules/just-validate/dist/just-validate.production.min.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
