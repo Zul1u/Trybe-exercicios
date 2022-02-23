@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-image: url(/images/explosion.jpg);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #212529;
+  }
+  
+  .header h3 {
+    text-decoration: underline;
+  }
+  
+  .paragraph {
+    text-align: center;
+    margin-top: 5px;
+    color: antiquewhite;
+  }
+  
+  .header-img {
+    width: 70px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .gallery h4 {
+      margin-bottom: 5px;
+  }
+
+  .gallery div {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #363d44 ;
+    background-color: #fec99aa9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #212529 ;
+  }
+  
+  .gallery-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .footer div {
+    border-top: 1px solid #212529e1 ;
+    padding-top: 10px;
+    padding-right:8px ;
+  }
+  
+  .footer-img {
+    width: 25px;
+    margin-left: 10px;
+  }
+  
+  .txt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #2c3136;
+  }
+
+  .span-img{
+      margin-top: 5px;
+      width: 50px;
+      height: 50px;
+  }
