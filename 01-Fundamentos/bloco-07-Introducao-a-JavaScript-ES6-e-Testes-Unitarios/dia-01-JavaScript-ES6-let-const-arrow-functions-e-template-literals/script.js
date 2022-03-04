@@ -82,8 +82,13 @@ const procuraX = String => {
 }
 
 const skills = ['HTML', 'CSS', 'ES6', 'Github', 'DOM'];
+skills.sort();
 
 const concatena = juncao => `${juncao} Minhas cinco principais skills são:
-${skills.sort()}`
+${skills[0]}
+${skills[1]}
+${skills[2]}
+${skills[3]}
+${skills[4]}`
 
 console.log(concatena(procuraX('Arthur')));
