@@ -31,7 +31,7 @@ console.log(newEmployees(person)); */
 
 // 2.
 
-const checkNumbers = (bet, raffel) => {
+/* const checkNumbers = (bet, raffel) => {
   if (raffel === bet) {
       return true;
   } else {
@@ -49,4 +49,34 @@ const numberGenerator = (bet, callback) => {
   }
 };
 
-numberGenerator(5, checkNumbers)
+numberGenerator(5, checkNumbers); */
+
+// 3.
+
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const checkAnswers = (template, answers) => {
+  let total = 0;
+  for (let i = 0; i < template.length; i += 1) {
+    if (template[i] === answers[i]) {
+        total += 1;
+    } else if (answers[i] === 'N.A') {
+        total += 0;
+    } else {
+        total += 0.5;
+    };
+  };
+  return total
+};
+
+const returnNota = (template, answers, callback) => {
+  if (callback(template, answers) === 10) {
+    return `Parabéns você tirou ${callback(template, answers)}!!!`
+  } else if (callback(template, answers) >= 8) {
+    return `Você tirou ${callback(template, answers)}.`
+  } else {
+    return `Que pena a sua nota é ${callback(template, answers)}. Você esta de recuperação :(`
+  };
+};
+console.log(returnNota(RIGHT_ANSWERS, RIGHT_ANSWERS, checkAnswers))
