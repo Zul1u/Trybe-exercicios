@@ -79,4 +79,4 @@ const returnNota = (template, answers, callback) => {
     return `Que pena a sua nota é ${callback(template, answers)}. Você esta de recuperação :(`
   };
 };
-console.log(returnNota(RIGHT_ANSWERS, RIGHT_ANSWERS, checkAnswers))
+console.log(returnNota(RIGHT_ANSWERS, RIGHT_ANSWERS, checkAnswers));
