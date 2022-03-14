@@ -107,6 +107,11 @@ function oldBooks(array) {
 //console.log(oldBooks(books));
 
 // N 7.
-function authorWith3DotsOnName() {
+function authorWith3DotsOnName(array) {
+  return array.filter((element) => (
+    element.author.name[1] === '.' 
+    && element.author.name[4] === '.' 
+    && element.author.name[7] === '.'
+  )).map((elementB) => elementB.name)[0]
 };
-console.log(authorWith3DotsOnName())
+console.log(authorWith3DotsOnName(books))
