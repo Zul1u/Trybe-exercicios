@@ -1,0 +1,57 @@
+.div_buttons {
+  display: flex;
+  margin: 5px;
+}
+
+.bnt {
+  margin: 0px 3px;
+  padding: 10px;
+  color: #e9ecef;
+  cursor: pointer;
+}
+
+.all {
+  background-color: #480ca8;
+  border-color: #480ca8;
+  color: #e9ecef;
+}
+
+.next {
+  background-color: #1b4332;
+  border-color: #1b4332;
+}
+
+.Electric {
+  background-color: #e85d04;
+  border-color: #e85d04;
+}
+
+.Fire {
+  background-color: #dc2f02;
+  border-color: #dc2f02;
+}
+
+.Bug {
+  background-color: #892b64;
+  border-color: #892b64;
+}
+
+.Poison {
+  background-color: #240046;
+  border-color: #240046;
+}
+
+.Psychic {
+  background-color: #d100d1;
+  border-color: #d100d1;
+}
+
+.Normal {
+  background-color: #2c6e49;
+  border-color: #2c6e49;
+}
+
+.Dragon {
+  background-color: #8187dc;
+  border-color: #8187dc;
+}
